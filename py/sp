@@ -1,0 +1,7 @@
+A ->   con server
+B ->  con server
+server -> envia a A la ip publica y privada de B
+server -> inicia conexion con B con la ip publica y privada de A
+A      -> envia paquetes UDP a la direccion publica y privada A
+B      -> envia pquetes UDP a la direccion publica y privada de A
+
